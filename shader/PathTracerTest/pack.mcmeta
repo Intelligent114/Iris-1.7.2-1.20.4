@@ -1,0 +1,4 @@
+{
+  "pack": { "pack_format": 12, "description": "RT demo (Iris 1.7+)" },
+  "shader": { "compatible_iris": "≥1.7.0" }
+}
