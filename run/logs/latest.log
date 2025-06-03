@@ -1,0 +1,418 @@
+[08:21:42] [main/WARN] (FabricLoader/Knot) Class path entries reference missing files: E:\dev\CG\Iris-1.7.2-1.20.4\build\resources\vendored - the game may not load properly!
+[08:21:42] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.15.6
+[08:21:43] [main/INFO] (FabricLoader) Loading 12 mods:
+	- fabric-api-base 0.4.36+78d798af4f
+	- fabric-block-view-api-v2 1.0.4+78d798af4f
+	- fabric-key-binding-api-v1 1.0.41+78d798af4f
+	- fabric-rendering-data-attachment-v1 0.3.42+73761d2e4f
+	- fabric-rendering-fluids-v1 3.1.0+d74054c14f
+	- fabric-resource-loader-v0 0.11.18+b66dcf784f
+	- fabricloader 0.15.6
+	- iris 1.7.2-snapshot+mc1.20.4-2383043
+	- java 17
+	- minecraft 1.20.4
+	- mixinextras 0.3.2
+	- sodium 0.5.8+mc1.20.4
+[08:21:43] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/13724/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[08:21:44] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[08:21:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[08:21:44] [main/INFO] (Sodium) Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[08:21:45] [main/WARN] (Sodium) Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[08:21:46] [main/INFO] (Sodium-GraphicsAdapterProbe) Searching for graphics cards...
+[08:21:47] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics card: GraphicsAdapterInfo[vendor=UNKNOWN, name=OrayIddDriver Device, version=DriverVersion=17.1.58.818]
+[08:21:47] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) Iris(R) Xe Graphics, version=DriverVersion=31.0.101.4502]
+[08:21:47] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce RTX 3060 Laptop GPU, version=DriverVersion=32.0.15.7628]
+[08:21:47] [main/WARN] (Sodium-Workarounds) Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[08:21:47] [main/WARN] (Sodium-Workarounds) This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[08:21:48] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[08:22:03] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 534 milliseconds
+[08:22:17] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:22:17] [Render thread/INFO] (Minecraft) Setting user: Player275
+[08:22:19] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[08:22:19] [Render thread/WARN] (Sodium-NvidiaWorkarounds) Applying workaround: Prevent the NVIDIA OpenGL driver from using broken optimizations (NVIDIA_THREADED_OPTIMIZATIONS)
+[08:22:20] [Render thread/INFO] (Sodium-PostlaunchChecks) OpenGL Vendor: NVIDIA Corporation
+[08:22:20] [Render thread/INFO] (Sodium-PostlaunchChecks) OpenGL Renderer: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+[08:22:20] [Render thread/INFO] (Sodium-PostlaunchChecks) OpenGL Version: 3.2.0 NVIDIA 576.28
+[08:22:21] [Render thread/INFO] (Iris) Debug functionality is disabled.
+[08:22:21] [Render thread/INFO] (Iris) ARB_direct_state_access detected, enabling DSA.
+[08:22:21] [Render thread/ERROR] (Iris) Pack "CG-TestV3" is not valid! Can't load it.
+[08:22:21] [Render thread/WARN] (Iris) Falling back to normal rendering without shaders because the shaderpack could not be loaded
+[08:22:22] [Render thread/INFO] (Iris) Hardware information:
+[08:22:22] [Render thread/INFO] (Iris) CPU: 20x 12th Gen Intel(R) Core(TM) i7-12700H
+[08:22:22] [Render thread/INFO] (Iris) GPU: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 576.28)
+[08:22:22] [Render thread/INFO] (Iris) OS: Windows 11 (10.0)
+[08:22:23] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.exceptions.MinecraftClientException.toAuthenticationException(MinecraftClientException.java:29) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:154) ~[authlib-6.0.52.jar:?]
+	at net.minecraft.client.Minecraft.method_55608(Minecraft.java:467) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[08:22:24] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api-base, fabric-block-view-api-v2, fabric-key-binding-api-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-resource-loader-v0, fabricloader, iris, sodium
+[08:22:24] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
+[08:22:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[08:22:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08:22:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.generic.wind_burst
+[08:22:27] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 扬声器 (3- Logitech G733 Gaming Headset)
+[08:22:27] [Render thread/INFO] (Minecraft) Sound engine started
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08:22:28] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08:22:29] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08:22:29] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[08:22:29] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08:22:29] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08:22:29] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[08:22:29] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[08:22:30] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[08:22:30] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
+	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:447) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:232) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.realmsclient.RealmsAvailability.method_52627(RealmsAvailability.java:45) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[08:22:40] [ForkJoinPool.commonPool-worker-1/WARN] (Iris) [Iris Update Check] Failed to get update info!
+java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:532) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:637) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2902) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2811) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1927) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224) ~[?:?]
+	at java.net.URL.openStream(URL.java:1161) ~[?:?]
+	at net.irisshaders.iris.UpdateChecker.lambda$checkForUpdates$0(UpdateChecker.java:91) ~[main/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:24:35] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[08:24:35] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[08:24:36] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
+[08:24:36] [Server thread/INFO] (Minecraft) Generating keypair
+[08:24:37] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:40] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:41] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[08:24:41] [Render thread/INFO] (Minecraft) Preparing spawn area: 5%
+[08:24:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[08:24:42] [Render thread/INFO] (Minecraft) Time elapsed: 4836 ms
+[08:24:42] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[08:24:42] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[08:24:46] [Server thread/INFO] (Minecraft) Player275[local:E:10e2fdaf] logged in with entity id 65 at (1.9971533880386727, 116.7324354547906, 316.61680100376833)
+[08:24:46] [Server thread/INFO] (Minecraft) Player275 joined the game
+[08:24:46] [Render thread/INFO] (Iris) Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[08:24:46] [Render thread/INFO] (Iris) Destroying pipeline minecraft:overworld
+[08:24:46] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[08:24:46] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[08:24:47] [Render thread/INFO] (Minecraft) Loaded 12 advancements
+[08:24:52] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[08:24:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:overworld
+[08:24:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_end
+[08:24:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_nether
+[08:24:54] [Render thread/INFO] (Iris) Destroying pipeline minecraft:overworld
+[08:24:54] [Render thread/INFO] (Iris) Profile: LEVEL5 (+0 options changed by user)
+[08:24:55] [Render thread/INFO] (Iris) Using shaderpack: CG-TestV3.1
+[08:24:55] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[08:24:55] [Render thread/WARN] (Iris) Failed to resolve uniform inPaleGarden, reason: Unknown variable: BIOME_PALE_GARDEN ( = FunctionCall{smooth {[Number{54}, FunctionCall{if {[FunctionCall{in {[Id{biome}, Id{BIOME_PALE_GARDEN}]} }, Number{1}, Number{0}]} }, Number{15}, Number{15}]} })
+java.lang.RuntimeException: Unknown variable: BIOME_PALE_GARDEN
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:220) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:127) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpression(ExpressionResolver.java:50) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms.<init>(CustomUniforms.java:62) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:333) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:344) ~[main/:?]
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.<init>(IrisRenderingPipeline.java:265) ~[main/:?]
+	at net.irisshaders.iris.Iris.createPipeline(Iris.java:578) ~[main/:?]
+	at net.irisshaders.iris.pipeline.PipelineManager.preparePipeline(PipelineManager.java:33) ~[main/:?]
+	at net.irisshaders.iris.Iris.reload(Iris.java:529) ~[main/:?]
+	at net.irisshaders.iris.apiimpl.IrisApiV0ConfigImpl.setShadersEnabledAndApply(IrisApiV0ConfigImpl.java:28) ~[main/:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.applyChanges(ShaderPackScreen.java:579) ~[main/:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.lambda$init$3(ShaderPackScreen.java:238) ~[main/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:95) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:48) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:145) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.mouseClicked(ShaderPackScreen.java:187) ~[main/:?]
+	at net.minecraft.client.MouseHandler.method_1611(MouseHandler.java:99) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:414) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:99) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.method_22686(MouseHandler.java:180) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:180) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:238) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1352) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:888) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[08:25:21] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[08:25:21] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10104":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:25:21] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:25:21] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[08:25:21] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[08:26:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[08:26:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:overworld
+[08:26:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_end
+[08:26:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_nether
+[08:26:05] [Render thread/INFO] (Iris) Destroying pipeline minecraft:overworld
+[08:26:05] [Render thread/INFO] (Iris) Profile: HIGH (+0 options changed by user)
+[08:26:06] [Render thread/INFO] (Iris) Using shaderpack: ComplementaryUnbound_r5.5.1
+[08:26:06] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[08:26:06] [Render thread/WARN] (Iris) Failed to resolve uniform inPaleGarden, reason: Unknown variable: BIOME_PALE_GARDEN ( = FunctionCall{smooth {[Number{54}, FunctionCall{if {[FunctionCall{in {[Id{biome}, Id{BIOME_PALE_GARDEN}]} }, Number{1}, Number{0}]} }, Number{15}, Number{15}]} })
+java.lang.RuntimeException: Unknown variable: BIOME_PALE_GARDEN
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:220) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:127) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpression(ExpressionResolver.java:50) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms.<init>(CustomUniforms.java:62) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:333) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:344) ~[main/:?]
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.<init>(IrisRenderingPipeline.java:265) ~[main/:?]
+	at net.irisshaders.iris.Iris.createPipeline(Iris.java:578) ~[main/:?]
+	at net.irisshaders.iris.pipeline.PipelineManager.preparePipeline(PipelineManager.java:33) ~[main/:?]
+	at net.irisshaders.iris.Iris.reload(Iris.java:529) ~[main/:?]
+	at net.irisshaders.iris.apiimpl.IrisApiV0ConfigImpl.setShadersEnabledAndApply(IrisApiV0ConfigImpl.java:28) ~[main/:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.applyChanges(ShaderPackScreen.java:579) ~[main/:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.lambda$init$3(ShaderPackScreen.java:238) ~[main/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:95) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:48) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:145) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.mouseClicked(ShaderPackScreen.java:187) ~[main/:?]
+	at net.minecraft.client.MouseHandler.method_1611(MouseHandler.java:99) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:414) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:99) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.method_22686(MouseHandler.java:180) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:180) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:build 13]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:202) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:220) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:287) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1349) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:888) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[08:26:08] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[08:26:08] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10104":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:08] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:08] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[08:26:08] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[08:26:13] [Render thread/INFO] (Iris) Destroying pipeline minecraft:overworld
+[08:26:13] [Render thread/INFO] (Iris) Profile: LEVEL5 (+0 options changed by user)
+[08:26:13] [Render thread/INFO] (Iris) Using shaderpack: CG-TestV3.1
+[08:26:13] [Render thread/INFO] (Iris) Creating pipeline for dimension minecraft:overworld
+[08:26:13] [Render thread/WARN] (Iris) Failed to resolve uniform inPaleGarden, reason: Unknown variable: BIOME_PALE_GARDEN ( = FunctionCall{smooth {[Number{54}, FunctionCall{if {[FunctionCall{in {[Id{biome}, Id{BIOME_PALE_GARDEN}]} }, Number{1}, Number{0}]} }, Number{15}, Number{15}]} })
+java.lang.RuntimeException: Unknown variable: BIOME_PALE_GARDEN
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:220) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:127) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpressionInternal(ExpressionResolver.java:81) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveCallExpression(ExpressionResolver.java:140) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpressionInternal(ExpressionResolver.java:194) ~[main/:?]
+	at kroppeb.stareval.resolver.ExpressionResolver.resolveExpression(ExpressionResolver.java:50) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms.<init>(CustomUniforms.java:62) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:333) ~[main/:?]
+	at net.irisshaders.iris.uniforms.custom.CustomUniforms$Builder.build(CustomUniforms.java:344) ~[main/:?]
+	at net.irisshaders.iris.pipeline.IrisRenderingPipeline.<init>(IrisRenderingPipeline.java:265) ~[main/:?]
+	at net.irisshaders.iris.Iris.createPipeline(Iris.java:578) ~[main/:?]
+	at net.irisshaders.iris.pipeline.PipelineManager.preparePipeline(PipelineManager.java:33) ~[main/:?]
+	at net.irisshaders.iris.Iris.reload(Iris.java:529) ~[main/:?]
+	at net.irisshaders.iris.apiimpl.IrisApiV0ConfigImpl.setShadersEnabledAndApply(IrisApiV0ConfigImpl.java:28) ~[main/:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.applyChanges(ShaderPackScreen.java:579) ~[main/:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.lambda$init$3(ShaderPackScreen.java:238) ~[main/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:95) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:48) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:145) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:38) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.irisshaders.iris.gui.screen.ShaderPackScreen.mouseClicked(ShaderPackScreen.java:187) ~[main/:?]
+	at net.minecraft.client.MouseHandler.method_1611(MouseHandler.java:99) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:414) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:99) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.method_22686(MouseHandler.java:180) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.MouseHandler.method_22684(MouseHandler.java:180) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:build 13]
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3438) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.pollEvents(RenderSystem.java:202) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:220) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at com.mojang.blaze3d.platform.Window.updateDisplay(Window.java:287) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1349) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:888) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:265) ~[minecraft-merged-ebcade3a5b-1.20.4-loom.mappings.1_20_4.layered+hash.2198-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.6.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10104":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:stone_slab has no property with the name variant, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10868":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10873":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/WARN] (Iris) Error while parsing the block ID map entry for "block.10876":
+[08:26:15] [Render thread/WARN] (Iris) - The block minecraft:trial_spawner has no property with the name ominous, ignoring!
+[08:26:15] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[08:26:15] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[08:26:18] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[08:26:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:overworld
+[08:26:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_end
+[08:26:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_nether
+[08:30:07] [Render thread/INFO] (Minecraft) Stopping!
+[08:30:07] [Server thread/INFO] (Minecraft) Player275 lost connection: Disconnected
+[08:30:07] [Server thread/INFO] (Minecraft) Player275 left the game
+[08:30:07] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[08:30:07] [Server thread/INFO] (Minecraft) Stopping server
+[08:30:07] [Server thread/INFO] (Minecraft) Saving players
+[08:30:07] [Server thread/INFO] (Minecraft) Saving worlds
+[08:30:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:overworld
+[08:30:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_end
+[08:30:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[CGTest]'/minecraft:the_nether
+[08:30:07] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (CGTest): All chunks are saved
+[08:30:07] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:30:07] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:30:07] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[08:30:07] [Render thread/INFO] (ChunkBuilder) Stopping worker threads

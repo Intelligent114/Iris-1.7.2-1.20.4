@@ -1,0 +1,13 @@
+/time add 12000s
+/time add 12000d
+/time add 12000
+/clear Player336
+/time add 12000
+/time add 6000
+/time add 15d
+/time add 7d
+/time add 6000
+/time add 12000
+/time add 6000
+/time add 12000
+/time add 6000
